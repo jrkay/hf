@@ -1,0 +1,3 @@
+[submodule "hf"]
+	path = hf
+	url = https://github.com/jrkay/hf.git
