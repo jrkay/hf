@@ -1,0 +1,94 @@
+
+solid x dun
+black x black dun = black, chestnut, black dun, red dun
+black x bay dun = black, chestnut, bay, black dun, red dun, bay dun
+black x red dun = black, chestnut, bay, black dun, red dun, bay dun
+bay x black dun = black, chestnut, bay, black dun, red dun, bay dun
+bay x bay dun = black, chestnut, bay, black dun, red dun, bay dun
+bay x red dun = black, chestnut, bay, black dun, red dun, bay dun
+chestnut x black dun = black, chestnut, bay, black dun, red dun, bay dun
+chestnut x bay dun = black, chestnut, bay, black dun, red dun, bay dun
+chestnut x red dun = chestnut, red dun
+
+dun x dun
+black dun x black dun = black, chestnut, black dun, red dun
+black dun x bay dun = black, chestnut, bay, black dun, red dun, bay dun
+black dun x red dun = black, chestnut, bay, black dun, red dun, bay dun
+bay dun x bay dun = black, chestnut, bay, black dun, red dun, bay dun
+bay dun x red dun = black, chestnut, bay, black dun, red dun, bay dun
+red dun x red dun = chestnut, red dun
+
+cream x dun
+smokey black x black dun = black, chestnut, smokey black, palomino, black dun, red dun, smokey black dun*, dunalino
+smokey black x bay dun = black, chestnut, bay, smokey black, palomino, buckskin, black dun, red dun, bay dun, smokey black dun*, dunalino, dunskin
+smokey black x red dun = black, chestnut, bay, smokey black, palomino, buckskin, black dun, red dun, bay dun, smokey black dun*, dunalino, dunskin
+buckskin x black dun = black, chestnut, bay, smokey black, palomino, buckskin, black dun, red dun, bay dun, smokey black dun*, dunalino, dunskin
+buckskin x bay dun = black, chestnut, bay, smokey black, palomino, buckskin, black dun, red dun, bay dun, smokey black dun*, dunalino, dunskin
+buckskin x red dun = black, chestnut, bay, smokey black, palomino, buckskin, black dun, red dun, bay dun, smokey black dun*, dunalino, dunskin
+palomino x black dun = black, chestnut, bay, smokey black, palomino, buckskin, black dun, red dun, bay dun, smokey black dun*, dunalino, dunskin
+palomino x bay dun = black, chestnut, bay, smokey black, palomino, buckskin, black dun, red dun, bay dun, smokey black dun*, dunalino, dunskin
+palomino x red dun = chestnut, palomino, red dun, dunalino
+
+double cream x dun
+smokey cream x black dun = smokey black, palomino, smokey black dun*, dunalino
+smokey cream x bay dun = smokey black, palomino, buckskin, smokey black dun*, dunalino, dunskin
+smokey cream x red dun = smokey black, palomino, buckskin, smokey black dun*, dunalino, dunskin
+perlino x black dun = smokey black, palomino, buckskin, smokey black dun*, dunalino, dunskin
+perlino x bay dun = smokey black, palomino, buckskin, smokey black dun*, dunalino, dunskin
+perlino x red dun = smokey black, palomino, buckskin, smokey black dun*, dunalino, dunskin
+cremello x black dun = smokey black, palomino, buckskin, smokey black dun*, dunalino, dunskin
+cremello x bay dun = smokey black, palomino, buckskin, smokey black dun*, dunalino, dunskin
+cremello x red dun = palomino, dunalino
+
+solid x cream dun
+black x smokey black dun* = black, chestnut, smokey black, palomino, black dun, red dun, smokey black dun*, dunalino
+black x dunskin = black, chestnut, bay, smokey black, palomino, buckskin, black dun, red dun, bay dun, smokey black dun*, dunalino, dunskin
+black x dunalino = black, chestnut, bay, smokey black, palomino, buckskin, black dun, red dun, bay dun, smokey black dun*, dunalino, dunskin
+bay x smokey black dun* = black, chestnut, bay, smokey black, palomino, buckskin, black dun, red dun, bay dun, smokey black dun*, dunalino, dunskin
+bay x dunskin = black, chestnut, bay, smokey black, palomino, buckskin, black dun, red dun, bay dun, smokey black dun*, dunalino, dunskin
+bay x dunalino = black, chestnut, bay, smokey black, palomino, buckskin, black dun, red dun, bay dun, smokey black dun*, dunalino, dunskin
+chestnut x smokey black dun* = black, chestnut, bay, smokey black, palomino, buckskin, black dun, red dun, bay dun, smokey black dun*, dunalino, dunskin
+chestnut x dunskin = black, chestnut, bay, smokey black, palomino, buckskin, black dun, red dun, bay dun, smokey black dun*, dunalino, dunskin
+chestnut x dunalino = chestnut, palomino, red dun, dunalino
+
+
+solid x roan
+black x black roan = black, chestnut, black roan, red roan
+black x bay roan = black, chestnut, bay, black roan, red roan, bay roan
+black x red roan = black, chestnut, bay, black roan, red roan, bay roan
+bay x black roan = black, chestnut, bay, black roan, red roan, bay roan
+bay x bay roan = black, chestnut, bay, black roan, red roan, bay roan
+bay x red roan = black, chestnut, bay, black roan, red roan, bay roan
+chestnut x black roan = black, chestnut, bay, black roan, red roan, bay roan
+chestnut x bay roan = black, chestnut, bay, black roan, red roan, bay roan
+chestnut x red roan = chestnut, red roan
+
+roan x roan
+black roan x black roan = black, chestnut, black roan, red roan
+black roan x bay roan = black, chestnut, bay, black roan, red roan, bay roan
+black roan x redroan = black, chestnut, bay, black roan, red roan, bay roan
+bay roan x bay roan = black, chestnut, bay, black roan, red roan, bay roan
+bay roan x red roan = black, chestnut, bay, black roan, red roan, bay roan
+red roan x red roan = chestnut, red roan
+
+cream x roan
+smokey black x black roan = black, chestnut, black roan, red roan, smokey black, palomino, smokey black roan*, palomino roan
+smokey black x bay roan = black, chestnut, bay, black roan, red roan, bay roan, smokey black, palomino, buckskin, smokey black roan*, palomino roan, buckskin roan
+smokey black x red roan = black, chestnut, bay, black roan, red roan, bay roan, smokey black, palomino, buckskin, smokey black roan*, palomino roan, buckskin roan
+buckskin x black roan = black, chestnut, bay, black roan, red roan, bay roan, smokey black, palomino, buckskin, smokey black roan*, palomino roan, buckskin roan
+buckskin x bay roan = black, chestnut, bay, black roan, red roan, bay roan, smokey black, palomino, buckskin, smokey black roan*, palomino roan, buckskin roan
+buckskin x red roan = black, chestnut, bay, black roan, red roan, bay roan, smokey black, palomino, buckskin, smokey black roan*, palomino roan, buckskin roan
+palomino x black roan = black, chestnut, bay, black roan, red roan, bay roan, smokey black, palomino, buckskin, smokey black roan*, palomino roan, buckskin roan
+palomino x bay roan = black, chestnut, bay, black roan, red roan, bay roan, smokey black, palomino, buckskin, smokey black roan*, palomino roan, buckskin roan
+palomino x red roan = chestnut, red roan, palomino, palomino roan
+
+double cream x roan
+smokey cream x black roan = smokey black, palomino, smokey black roan*, palomino roan
+smokey cream x bay roan = smokey black, palomino, buckskin, smokey black roan*, palomino roan, buckskin roan
+smokey cream x red roan = black, chestnut, bay, black roan, red roan, bay roan, smokey black, palomino, buckskin, smokey black roan*, palomino roan, buckskin roan
+perlino x black roan = smokey black, palomino, buckskin, smokey black roan*, palomino roan, buckskin roan
+perlino x bay roan = smokey black, palomino, buckskin, smokey black roan*, palomino roan, buckskin roan
+perlino x red roan = smokey black, palomino, buckskin, smokey black roan*, palomino roan, buckskin roan
+cremello x black roan = smokey black, palomino, buckskin, smokey black roan*, palomino roan, buckskin roan
+cremello x bay roan = smokey black, palomino, buckskin, smokey black roan*, palomino roan, buckskin roan
+cremello x red roan = palomino, palomino roan

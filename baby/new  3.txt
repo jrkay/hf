@@ -1,0 +1,19 @@
+var possible;
+
+if (sireColor == 'bay' || damColor == 'bay') {
+
+}
+
+switch (sireColor){
+	case "bay":
+		switch (damColor){
+			case "bay":
+			case "chestnut":
+			case "black":
+				possible = ['bay','black','chestnut'];
+				break;
+			case "palomino":
+				possible = ['palomino'];
+			
+		}	
+}

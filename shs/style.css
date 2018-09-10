@@ -1,0 +1,56 @@
+body{
+font:normal normal 400 15px/24px sans-serif;
+}
+
+h1{
+}
+
+h2{
+font:normal normal 400 20px/24px sans-serif;
+}
+
+strong{
+font-size:22px;
+margin:0 20px 0 0;
+width:70px;
+padding-top:15px;
+float:left;
+display:inline-block;
+border-bottom:1px solid #CCCCCC;
+}
+
+#note{
+border:1px solid black;
+font:normal normal 400 13px/17px sans-serif;
+padding:10px 20px;
+}
+
+#rules{
+color:#666666;
+font-size:13px;
+padding:0 50px;
+}
+
+#shsApproved{
+text-align:center;
+font-weight:700;
+font-size:20px;
+}
+
+#shsOverall{
+text-align:center;
+}
+
+#shsResults{
+}
+
+#wrapper{
+margin:0 auto;
+width:900px;
+}
+
+.comment{
+color:#888888;
+font-size:13px;
+margin-left:20px;
+}

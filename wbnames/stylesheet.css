@@ -1,0 +1,149 @@
+body{
+background:url('water.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+font-size:20px;
+color:white;
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Bevan', sans-serif;
+    font-size: 85px;
+    }
+h2 {
+    font-family: 'Bevan', sans-serif;
+    font-size: 24px;
+    line-height: 23px;
+    margin: 0 0 5px 0;
+	
+    }
+p {
+    font-family: 'Potamo Sans', sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
+
+#title{
+float:right;
+position:absolute;
+bottom:0;
+right:0;
+font-size: 70px;
+text-shadow: -1px 0 darkgrey, 0 1px darkgrey, 1px 0 darkgrey, 0 -1px darkgrey;
+font-family: 'Dosis', sans-serif;
+font-weight: 400;
+padding:5px;
+}
+
+#subTitle{
+position:absolute;
+bottom:5px;
+left:165px;
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 14px;
+	font-weight:500;
+}
+
+.leftbox{
+margin-left:-8px;
+margin-top:2%;
+width:460px;
+padding:0px;
+border:none;
+}
+
+#breed{
+position:relative;
+text-align:right;
+display:inline-block;
+width:280px;
+margin-top:0px;
+margin-left:160px;
+}
+
+#warmblood
+{
+position:relative;
+padding: 0px;
+}     
+
+#warmblood h1 {
+top:89px;
+left:-100px;
+border:none;
+    font-family: 'Bevan', sans-serif;
+    font-weight: 400;
+    background: none;
+	color:white;
+    padding: 1px;
+    margin: 0;
+    line-height: 1;
+    position: absolute;
+    -webkit-transform: rotate(90deg) translateX(20px); 
+    -moz-transform:    rotate(90deg) translateX(20px);
+    -ms-transform:     rotate(90deg) translateX(20px);
+    -o-transform:      rotate(90deg) translateX(20px); 
+    transform:         rotate(90deg) translateX(20px); 
+    -webkit-transform-origin: 1.8em .5em;
+    -moz-transform-origin:    1.8em .5em;
+    -ms-transform-origin:     1.8em .5em;
+    -o-transform-origin:      1.8em .5em;
+    transform-origin:         1.8em .5em;
+}
+
+ul{
+list-style-type: none;
+text-align:left;
+padding:5px;
+width:auto;
+height:250px;
+    font-family: 'Pontano Sans', sans-serif;
+font-size: 25px;
+border:none;
+}
+
+ul a:link, ul a:visited{
+color:white
+;}
+ul a:hover{
+color:darkgrey;}
+
+
+
+h3{
+padding-top:10px;
+letter-spacing:3px;
+color: white;
+font-size:35px;
+margin-bottom:-10px;
+}
+
+a:link, a:visited, a:active{
+text-decoration: none;
+color: darkgrey;
+}
+
+#breedClick,#def{
+position:relative;
+margin-left:500px;
+margin-top:-210px;
+border:none;
+width:50%;
+}
+
+table{
+border:1px solid white;
+}
+.year{
+color:darkgrey;
+}
+tr{
+text-align:center;
+}
+td{
+padding:0px 16px 0px 16px;
+}
