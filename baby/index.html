@@ -5,13 +5,18 @@
 <link href="http://fonts.googleapis.com/css?family=Open+Sans|Dosis:400,800" rel="stylesheet" type="text/css" />
 
     <title>Baby Maker</title>
+
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge;" />
+<meta content="utf-8" http-equiv="encoding" />
+
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
 		
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>	
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="genes.js"></script>
 
 <script src="jquery.tabSlideOut.v1.3.js"></script>
 
@@ -47,41 +52,42 @@ fixedPosition: true    //options: true makes it stick(fixed position) on scroll
 <div class="centerbox">
 
 <form id="baby">
-<div class="sire">
-<label for ="sire">What is the sire's color?</label>
-<select id="sire" name="sire">
-	<option value="0" selected> </option>
-	<option value="bayS">Bay</option>
-	<option value="blackS">Black</option>
-	<option value="chestnutS">Chestnut</option>
-	<option value="palominoS">Palomino</option>
-	<option value="buckskinS">Buckskin</option>
-	<option value="perlinoS">Perlino</option>	
-	<option value="cremelloS">Cremello</option>
-	<option value="smokeyblackS">Smokey Black</option>
-	<option value="smokeycreamS">Smokey Cream</option>
-	</select>
-</div>
+	<div class="sire">
+		<label for ="sire">What is the sire's color?</label>
+		<select id="sire" name="sire" value="" >
+			<option value="0" selected> </option>
+			<option value="bay">Bay</option>
+			<option value="black">Black</option>
+			<option value="chestnut">Chestnut</option>
+			<option value="palomino">Palomino</option>
+			<option value="buckskin">Buckskin</option>
+			<option value="perlino">Perlino</option>	
+			<option value="cremello">Cremello</option>
+			<option value="smokeyblack">Smokey Black</option>
+			<option value="smokeycream">Smokey Cream</option>
+		</select>
+	</div>
 
-<div class="dam">
-	<label for="dam">What is the dam's color?</label>
-	<select id="dam" name="dam" >
-	<option value="0" selected> </option>
-	<option value="bayD">Bay</option>
-	<option value="blackD">Black</option>
-	<option value="chestnutD">Chestnut</option>
-	<option value="palominoD">Palomino</option>
-	<option value="buckskinD">Buckskin</option>
-	<option value="perlinoD">Perlino</option>	
-	<option value="cremelloD">Cremello</option>
-	<option value="smokeyblackD">Smokey Black</option>
-	<option value="smokeycreamD">Smokey Cream</option>
-</select>
-</div>
+	<div class="dam">
+		<label for="dam">What is the dam's color?</label>
+		<select id="dam" name="dam" value="" >
+			<option value="0" selected> </option>
+			<option value="bay">Bay</option>
+			<option value="black">Black</option>
+			<option value="chestnut">Chestnut</option>
+			<option value="palomino">Palomino</option>
+			<option value="buckskin">Buckskin</option>
+			<option value="perlino">Perlino</option>	
+			<option value="cremello">Cremello</option>
+			<option value="smokeyblack">Smokey Black</option>
+			<option value="smokeycream">Smokey Cream</option>
+		</select>
+	</div>
 <!--</fieldset>-->
 
 <BR>
-<p class="submit"><input type="button" value="Make me a baby!"  onclick="showDiv(); return formSubmit()"/></p>
+<!--<p class="submit"><input type="button" value="Make me a baby!" onclick="showDiv(); return formSubmit()"/></p> -->
+<p class="submit"><input type="button" value="Make me a baby!" onclick="formSubmit()"/></p>
 
 <h2 class="result error"><span id="errorDiv"  style="display:none;">Please select both colors for the parents.</span></h2>
 <BR>
