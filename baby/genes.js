@@ -1,6 +1,4 @@
 /*
-2018 - Until genotypes are in IDHorse, no homozygous dominat used for most breeds
-
 EXTENSION:
 EE - bay [Unused at this time until official testing]
 Ee - bay
@@ -92,27 +90,49 @@ console.log(coat);
 
 		var defaultGeno = ['Ee', 'Aa', 'dd', 'chch', 'zz', 'CC']; // generic bay
 
-//TRY JUST RETURNING A RANDOMIZED VALUE???
-// var rand = myArray[Math.floor(Math.random() * myArray.length)];
-
 		var extension = ["EE", "Ee", "ee"],
-			agouti = ["AA", "Aa", "aa"];
+			agouti = ["AA", "Aa", "aa"],
+			dun = ["DD", "Dd", "dd"];
 
 		switch (color) {
 			case "bay":
-				agouti.splice(2,1);
 				extension.splice(2,1);
+				agouti.splice(2,1);
 				defaultGeno[0] = extension[Math.floor(Math.random() * extension.length)];
-				defaultGeno[1] = agouti[Math.floor(Math.random() * agouti.length)]; // we don't care about A
+				defaultGeno[1] = agouti[Math.floor(Math.random() * agouti.length)]; 
+				defaultGeno[2] = "dd"; 
 			break;
 			case "chestnut":
-				defaultGeno[1] = agouti[Math.floor(Math.random() * agouti.length)]; // we don't care about A
-				defaultGeno[0] = "ee"; // jk, only one option
+				defaultGeno[1] = agouti[Math.floor(Math.random() * agouti.length)]; 
+				defaultGeno[0] = "ee"; 
+				defaultGeno[2] = "dd"; 
 			break;
 			case "black":
 				extension.splice(2,1);
-				defaultGeno[0] = extension[Math.floor(Math.random() * extension.length)]; // E needs to have one dominant
-				defaultGeno[1] = "aa"; // jk, only one option
+				defaultGeno[0] = extension[Math.floor(Math.random() * extension.length)]; 
+				defaultGeno[1] = "aa"; 
+				defaultGeno[2] = "dd"; 	
+			break;
+			case "baydun":
+				extension.splice(2,1);
+				agouti.splice(2,1);
+				dun.splice(2,1);
+				defaultGeno[0] = extension[Math.floor(Math.random() * extension.length)]; 
+				defaultGeno[1] = agouti[Math.floor(Math.random() * agouti.length)]; 
+				defaultGeno[2] = dun[Math.floor(Math.random() * dun.length)]; 
+			break;
+			case "reddun":
+				dun.splice(2,1);
+				defaultGeno[0] = "ee";
+				defaultGeno[1] = agouti[Math.floor(Math.random() * agouti.length)];  
+				defaultGeno[2] = dun[Math.floor(Math.random() * dun.length)]; 
+			break;
+			case "grullo":
+				extension.splice(2,1);
+				dun.splice(2,1);
+				defaultGeno[0] = extension[Math.floor(Math.random() * extension.length)]; 
+				defaultGeno[1] = "aa"; 
+				defaultGeno[2] = dun[Math.floor(Math.random() * dun.length)]; 
 			break;
 		}
 
@@ -124,7 +144,8 @@ console.log(coat);
 
 		var finalGeno = ['Ee', 'Aa', 'dd', 'chch', 'zz', 'CC']; // generic bay
 		var extension = ["EE", "Ee", "ee"],
-			agouti = ["AA", "Aa", "aa"];
+			agouti = ["AA", "Aa", "aa"],
+			dun = ["DD", "Dd", "dd"];
 
 		// E gene
 		if (sire[0] == "ee" && dam[0] == "ee"){
@@ -159,22 +180,30 @@ console.log(coat);
 		} else {
 			finalGeno[1] = agouti[Math.floor(Math.random() * agouti.length)];
 		}
+			
+		// D gene
+		if (sire[2] == "dd" && dam[1] == "dd"){
+			finalGeno[2] = "dd";
+		} else if (sire[2] == "DD" && dam[2] == "DD"){
+			finalGeno[2] = "DD";
+		} else if ((sire[2] == "DD" || dam[2] == "DD") && (sire[2] == "dd" || dam[2] == "dd")){
+			finalGeno[2] = "Dd";
+		} else if (sire[2] == "DD" || dam[2] == "DD"){
+			dun.splice(2,1);
+			finalGeno[2] = dun[Math.floor(Math.random() * dun.length)];
+		} else if (sire[2] == "dd" || dam[1] == "dd"){
+			dun.splice(0,1);
+			finalGeno[2] = dun[Math.floor(Math.random() * dun.length)];
+		} else {
+			finalGeno[2] = dun[Math.floor(Math.random() * dun.length)];
+		}
+
 			return finalGeno;
 	}
 
+	// Text color from geno
+	function babyCoat (genotype){
+		// do something
+	}
+
 }
-
-
-
-//figure out how to return a changed array from above function! assign sire and dam variables? how to get 2 saved separetley?
-// console.log(defaultGeno);
-/*
-			for (var i=agouti.length-1; i>=0; i--) {
-			    if (agouti[i] === "aa") {
-			        agouti.splice(i, 1);
-			        break;
-			    }
-			}
-			finalGeno[1] = shuffle(agouti)[1];
-
-			*/
