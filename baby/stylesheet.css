@@ -1,10 +1,34 @@
 body{
-background:url('foallook2.png') no-repeat center center fixed;
+font-size:20px;
+background-color: rgba(36,139,143,1);
+/*background: rgba(173,247,250,1);
+background: -moz-linear-gradient(45deg, rgba(173,247,250,1) 0%, rgba(36,139,143,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(173,247,250,1)), color-stop(100%, rgba(36,139,143,1)));
+background: -webkit-linear-gradient(45deg, rgba(173,247,250,1) 0%, rgba(36,139,143,1) 100%);
+background: -o-linear-gradient(45deg, rgba(173,247,250,1) 0%, rgba(36,139,143,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(173,247,250,1) 0%, rgba(36,139,143,1) 100%);
+background: linear-gradient(45deg, rgba(173,247,250,1) 0%, rgba(36,139,143,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adf7fa', endColorstr='#248b8f', GradientType=1 );
+*/
+
+}
+
+/* Change this to a gradient */
+#background{
+background-image:url('foallook2.jpg');
+opacity: .5;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment:  fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-font-size:20px;
+  background-size: cover;    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:-10;
 }
 
 h1 {
@@ -54,10 +78,11 @@ right:0;
 
 .centerbox{
 margin-top:50px;
-margin-left:auto;
-margin-right:auto;
 width:850px;
 padding:10px;
+position: absolute;
+left: 50%;
+margin-left: -425px
 }
 
 .sire{
@@ -174,3 +199,10 @@ a:active {
 text-decoration: none;
 color: black;
 }
+
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+}
+
