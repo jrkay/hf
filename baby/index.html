@@ -1,125 +1,114 @@
 <!DOCTYPE html>
-
 <html>
-<head>
-<link href="http://fonts.googleapis.com/css?family=Open+Sans|Dosis:400,800" rel="stylesheet" type="text/css" />
+	<head>
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans|Dosis:400,800" rel="stylesheet" type="text/css" />
+		<title>Baby Maker</title>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge;" />
+		<meta content="utf-8" http-equiv="encoding" />
+		<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+	</head>
 
-    <title>Baby Maker</title>
-
-<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge;" />
-<meta content="utf-8" http-equiv="encoding" />
-
-<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+	<body>
+	<!-- particles.js container -->
+	<div id="particles-js">
 		
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>	
-<script type="text/javascript" src="genes.js"></script>
-
-<script src="jquery.tabSlideOut.v1.3.js"></script>
-
-<script>
-$(function(){
-$('.slide-out-div').tabSlideOut({
-tabHandle: '.handle',   //class of the element that will be your tab
-pathToTabImage: 'contact_tab.png', //path to the image for the tab (optionaly can be set using css)
-imageHeight: '122px',    //height of tab image
-imageWidth: '40px',    //width of tab image    
-tabLocation: 'left',    //side of screen where tab lives, top, right, bottom, or left
-speed: 300,    //speed of animation
-action: 'click',//options: 'click' or 'hover', action to trigger animation
-topPos: '100px',//position from the top
-fixedPosition: true    //options: true makes it stick(fixed position) on scroll
-});
-});
-</script>
-
-</head>
-
-<body>
-<div id="background"></div>
-<!-- particles.js container -->
-<div id="particles-js">
-	
-<div class="slide-out-div">
-    <a class="handle" href="http://link-for-non-js-users.html">Content</a>
-    <h2>Info</h2>
-    <p>Colors to be added:<BR>
-	Roan, Dun, Grey, Pinto patterns
-    </p>
-    <p>If you have any questions or comments, please contact <a href="mailto:vanillalive@gmail.com">JoAnna</a></p>
-</div>
-
-
-<div class="centerbox">
-
-<form id="baby">
-	<div class="sire">
-		<label for ="sire">What is the sire's color?</label>
-		<select id="sire" name="sire" value="" >
-			<option value="0" selected> </option>
-			<option value="bay">Bay</option>
-			<option value="black">Black</option>
-			<option value="Dun">Chestnut</option>
-			<option value="baydun">Bay Dun</option>
-			<option value="reddun">Red Dun</option>
-			<option value="grullo">Grullo</option>
-			<option value="palomino">Palomino</option>
-			<option value="buckskin">Buckskin</option>
-			<option value="perlino">Perlino</option>	
-			<option value="cremello">Cremello</option>
-			<option value="smokeyblack">Smokey Black</option>
-			<option value="smokeycream">Smokey Cream</option>
-		</select>
-
-		<label for="greySire" >
-			<input name="greySire" id="greySire" type="checkbox"  value="true" /> Grey
-		</label>
+	<div class="slide-out-div">
+	    <a class="handle" href="http://link-for-non-js-users.html">Content</a>
+	    <h2>Info</h2>
+	    <p>Colors to be added:<BR>
+		Roan, Dun, Grey, Pinto patterns
+	    </p>
+	    <p>If you have any questions or comments, please contact <a href="mailto:vanillalive@gmail.com">JoAnna</a></p>
 	</div>
 
-	<div class="dam">
-		<label for="dam">What is the dam's color?</label>
-		<select id="dam" name="dam" value="" >
-			<option value="0" selected> </option>
-			<option value="bay">Bay</option>
-			<option value="black">Black</option>
-			<option value="chestnut">Chestnut</option>
-			<option value="baydun">Bay Dun</option>
-			<option value="reddun">Red Dun</option>
-			<option value="grullo">Grullo</option>
-			<option value="palomino">Palomino</option>
-			<option value="buckskin">Buckskin</option>
-			<option value="perlino">Perlino</option>	
-			<option value="cremello">Cremello</option>
-			<option value="smokeyblack">Smokey Black</option>
-			<option value="smokeycream">Smokey Cream</option>
-		</select>
+	<div id="subTitle">a tool for sim foals</div>
+	<div id="title">BabyMaker</div>
+	<div class="centerbox">
+		<form id="baby">
+			<div class="sire">
+				<label for ="sire">What is the sire's color?</label>
+				<select id="sire" name="sire" value="" >
+					<option value="0" selected> </option>
+					<option value="bay">Bay</option>
+					<option value="black">Black</option>
+					<option value="Dun">Chestnut</option>
+					<option value="baydun">Bay Dun</option>
+					<option value="reddun">Red Dun</option>
+					<option value="grullo">Grullo</option>
+					<option value="palomino">Palomino</option>
+					<option value="buckskin">Buckskin</option>
+					<option value="perlino">Perlino</option>	
+					<option value="cremello">Cremello</option>
+					<option value="smokeyblack">Smokey Black</option>
+					<option value="smokeycream">Smokey Cream</option>
+				</select>
 
-		<label for="greyDam" >
-			<input name="greyDam" id="greyDam" type="checkbox"  value="true" /> Grey
-		</label>
-	</div>
-<!--</fieldset>-->
+				<label for="greySire" class="grey">
+					<input name="greySire" id="greySire" type="checkbox"  value="true" /> Grey
+					<span class="greyCheckbox"></span>
+				</label>
+			</div>
 
-<BR>
-<!--<p class="submit"><input type="button" value="Make me a baby!" onclick="showDiv(); return formSubmit()"/></p> -->
-<p class="submit"><input type="button" value="Make me a baby!" onclick="formSubmit()"/></p>
+			<div class="dam">
+				<label for="dam">What is the dam's color?</label>
+				<select id="dam" name="dam" value="" >
+					<option value="0" selected> </option>
+					<option value="bay">Bay</option>
+					<option value="black">Black</option>
+					<option value="chestnut">Chestnut</option>
+					<option value="baydun">Bay Dun</option>
+					<option value="reddun">Red Dun</option>
+					<option value="grullo">Grullo</option>
+					<option value="palomino">Palomino</option>
+					<option value="buckskin">Buckskin</option>
+					<option value="perlino">Perlino</option>	
+					<option value="cremello">Cremello</option>
+					<option value="smokeyblack">Smokey Black</option>
+					<option value="smokeycream">Smokey Cream</option>
+				</select>
 
-<h2 class="result error"><span id="errorDiv"  style="display:none;">Please select both colors for the parents.</span></h2>
-<BR>
-<h2 class="result"><span id="welcomeDiv"  style="display:none;">The foal is a <BR></span><input type="text" name="foal" id="foal"></h2>
-<p class="result"><input type="text" name="foalTwo" id="foalTwo"></p>
-</form>	
-</div>
+				<label for="greyDam" class="grey">
+					<input name="greyDam" id="greyDam" type="checkbox"  value="true" /> Grey
+					<span class="greyCheckbox"></span>
+				</label>
+			</div>
+			<!--</fieldset>-->
 
-<div id="subTitle">a tool for sim foals</div>
-<div id="title">BabyMaker</div>
-</div>
+			<BR>
+			<!--<p class="submit"><input type="button" value="Make me a baby!" onclick="showDiv(); return formSubmit()"/></p> -->
+			<p class="submit"><input type="button" value="Make me a baby!" onclick="formSubmit()"/></p>
+			<h2 class="result error"><span id="errorDiv" style="display:none;">Please select both colors for the parents.</span></h2>
+			<BR>
+			<h2 class="result"><span id="welcomeDiv" style="display:none;">The foal is a <BR></span><input type="text" name="foal" id="foal"></h2>
+			<p class="result"><input type="text" name="foalTwo" id="foalTwo"></p>
+		</form>	
+		</div>
 
-<!-- scripts -->
-<script src="particles.js"></script>
-<script src="js/app.js"></script>
-</body>
+		<!-- scripts -->
+		<script src="js/particles.js"></script>
+		<script src="js/app.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>	
+		<script type="text/javascript" src="js/genes.js"></script>
+		<script src="js/jquery.tabSlideOut.v1.3.js"></script>
+
+		<script>
+			$(function(){
+				$('.slide-out-div').tabSlideOut({
+					tabHandle: '.handle',   //class of the element that will be your tab
+					pathToTabImage: 'contact_tab.png', //path to the image for the tab (optionaly can be set using css)
+					imageHeight: '122px',    //height of tab image
+					imageWidth: '40px',    //width of tab image    
+					tabLocation: 'left',    //side of screen where tab lives, top, right, bottom, or left
+					speed: 300,    //speed of animation
+					action: 'click',//options: 'click' or 'hover', action to trigger animation
+					topPos: '100px',//position from the top
+					fixedPosition: true    //options: true makes it stick(fixed position) on scroll
+				});
+			});
+		</script>
+	</body>
 </html>

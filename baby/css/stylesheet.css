@@ -1,0 +1,272 @@
+body{
+    background: rgba(173,247,250,1);
+    background: -moz-linear-gradient(45deg, rgba(173,247,250,1) 0%, rgba(36,139,143,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(173,247,250,1)), color-stop(100%, rgba(36,139,143,1)));
+    background: -webkit-linear-gradient(45deg, rgba(173,247,250,1) 0%, rgba(36,139,143,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(173,247,250,1) 0%, rgba(36,139,143,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(173,247,250,1) 0%, rgba(36,139,143,1) 100%);
+    background: linear-gradient(45deg, rgba(173,247,250,1) 0%, rgba(36,139,143,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adf7fa', endColorstr='#248b8f', GradientType=1 );
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:  fixed;
+    font-size:20px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    line-height: 46px;
+    font-size: 40px;
+    margin: 0 0 23px 0;
+}
+
+h2 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0 0 5px 0;
+}
+
+h3{
+    padding-top:10px;
+    letter-spacing:3px;
+    color: white;
+    font-size:35px;
+    margin-bottom:-10px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+}
+
+select{
+    outline: 0;
+    border-radius: 10px;
+    border:1px solid black;
+    background:rgba(173,247,250,.2);
+    padding:5px;
+    width:250px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+select:hover{
+    cursor:pointer;
+}
+
+label{
+    width: 400px;
+    text-align: center;
+    margin-right: 0.5em;
+    display: block;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    line-height: 46px;
+    font-size: 40px;
+}
+
+#title{
+    float:right;
+    position:absolute;
+    top:0;
+    right:0;
+    font-size: 70px;
+    text-shadow: -1px 0 darkgrey, 0 1px darkgrey, 1px 0 darkgrey, 0 -1px darkgrey;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    padding:5px;
+}
+
+#subTitle{
+    position:absolute;
+    float:right;
+    top:80px;
+    right:0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+	padding-right:5px;
+	font-weight:500;
+}
+
+.centerbox{
+    margin-top:50px;
+    width:850px;
+    padding:10px;
+    position: absolute;
+    left: 50%;
+    margin-left: -425px
+}
+
+.sire{
+    border:none;
+    width:400px;
+    float:left;
+    text-align:center;
+    margin-top:100px;
+}
+
+.dam{
+    border:none;
+    width:400px;
+    float:right;
+    text-align:center;
+    margin-top:100px;
+}
+
+.submit {
+    text-align:center;
+}
+
+.submit input{
+    outline: 0;
+    margin-top:30px;
+    background:rgba(173,247,250,.3);
+    border:1px solid black;
+    padding:3px 12px;
+    font-size:30px;
+    border-radius: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    line-height: 46px;
+	letter-spacing:.05em;
+    cursor: pointer;
+}
+
+.submit input:hover{
+    background:#FFF;
+    background:rgba(36,139,143,1);
+    transition:.5s;
+}
+
+focus{
+    outline:none;
+}
+
+.result{
+    text-align:center;
+    width:900px;
+    margin-left:-10px;
+}
+
+.result input{
+    outline:none;
+    border:none;
+    background:none;
+    text-align:center;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.result #foalTwo{
+    font-size:20px;
+    width:600px;
+}
+
+.error {
+    color:red;
+}
+
+.slide-out-div {
+    padding: 20px;
+    width: 200px;
+    background: rgba(255,255,255,.3);
+    border: none;
+	border-radius: 10px;
+	font-size:17px;
+}      
+
+#particles-js{
+    width: 100%;
+    height: 100%;
+}
+
+.grey {
+  font-size: 21px !important;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width:50px;
+  margin: 10px auto 0 auto;
+  line-height: 22px;
+}
+
+/* Hide the browser's default checkbox */
+.grey input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.greyCheckbox {
+  position: absolute;
+  top: 2px;
+  left: -20px;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+    border-radius:3px;
+}
+
+/* On mouse-over, add a grey background color */
+.grey:hover input ~ .greyCheckbox {
+    background:rgba(255,255,255,.3);
+}
+
+/* When the checkbox is checked, add a blue background */
+.grey input:checked ~ .greyCheckbox {
+  background:rgba(36,139,143,1);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.greyCheckbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.grey input:checked ~ .greyCheckbox:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.grey .greyCheckbox:after {
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
